@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HelloWorldConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "Test"
+    }
+  }
+}
