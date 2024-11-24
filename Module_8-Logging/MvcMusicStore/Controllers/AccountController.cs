@@ -5,6 +5,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using MvcMusicStore.Models;
+using MvcMusicStore.Infrastructure;
 
 namespace MvcMusicStore.Controllers
 {
@@ -65,13 +66,15 @@ namespace MvcMusicStore.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
         {
+
             if (ModelState.IsValid)
             {
                 var user = await _userManager.FindAsync(model.UserName, model.Password);
                 if (user != null)
                 {
                     await SignInAsync(user, model.RememberMe);
-
+                    // Increases every time the user logs in.
+                    CounterInstance.Counters.Increment(Counters.LogIn);
                     return RedirectToLocal(returnUrl);
                 }
 
@@ -319,6 +322,8 @@ namespace MvcMusicStore.Controllers
         {
             AuthenticationManager.SignOut();
 
+            // Increases every time the user logs out.
+            CounterInstance.Counters.Increment(Counters.LogOff);
             return RedirectToAction("Index", "Home");
         }
 
