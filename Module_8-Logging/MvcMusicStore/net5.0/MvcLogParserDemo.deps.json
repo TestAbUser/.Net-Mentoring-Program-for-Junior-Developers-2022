@@ -1,0 +1,317 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MvcLogParserDemo/1.0.0": {
+        "dependencies": {
+          "MvcMusicStore": "1.0.0.0"
+        },
+        "runtime": {
+          "MvcLogParserDemo.dll": {}
+        }
+      },
+      "MvcMusicStore/1.0.0.0": {
+        "runtime": {
+          "MvcMusicStore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Owin/3.0.1.0": {
+        "runtime": {
+          "Microsoft.Owin.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.40213.64"
+          }
+        }
+      },
+      "System.Web.Optimization/1.1.0.0": {
+        "runtime": {
+          "System.Web.Optimization.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.40211.0"
+          }
+        }
+      },
+      "System.Web.Mvc/5.2.3.0": {
+        "runtime": {
+          "System.Web.Mvc.dll": {
+            "assemblyVersion": "5.2.3.0",
+            "fileVersion": "5.2.30128.0"
+          }
+        }
+      },
+      "Owin/1.0.0.0": {
+        "runtime": {
+          "Owin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNet.Identity.Core/2.0.0.0": {
+        "runtime": {
+          "Microsoft.AspNet.Identity.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.1.40403"
+          }
+        }
+      },
+      "Microsoft.AspNet.Identity.EntityFramework/2.0.0.0": {
+        "runtime": {
+          "Microsoft.AspNet.Identity.EntityFramework.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.1.40403"
+          }
+        }
+      },
+      "NLog/4.0.0.0": {
+        "runtime": {
+          "NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.13.493"
+          }
+        }
+      },
+      "Autofac/6.3.0.0": {
+        "runtime": {
+          "Autofac.dll": {
+            "assemblyVersion": "6.3.0.0",
+            "fileVersion": "6.3.0.0"
+          }
+        }
+      },
+      "EntityFramework/6.0.0.0": {
+        "runtime": {
+          "EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.1.40302.0"
+          }
+        }
+      },
+      "PerformanceCounterHelper/1.3.0.2": {
+        "runtime": {
+          "PerformanceCounterHelper.dll": {
+            "assemblyVersion": "1.3.0.2",
+            "fileVersion": "1.3.0.2"
+          }
+        },
+        "resources": {
+          "es/PerformanceCounterHelper.resources.dll": {
+            "locale": "es"
+          }
+        }
+      },
+      "Microsoft.AspNet.Identity.Owin/2.0.0.0": {
+        "runtime": {
+          "Microsoft.AspNet.Identity.Owin.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.1.40403"
+          }
+        }
+      },
+      "Microsoft.Owin.Security.Cookies/3.0.1.0": {
+        "runtime": {
+          "Microsoft.Owin.Security.Cookies.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.40213.64"
+          }
+        }
+      },
+      "Microsoft.Owin.Security/3.0.1.0": {
+        "runtime": {
+          "Microsoft.Owin.Security.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.40213.64"
+          }
+        }
+      },
+      "Autofac.Integration.Mvc/6.0.0.0": {
+        "runtime": {
+          "Autofac.Integration.Mvc.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb/3.0.1.0": {
+        "runtime": {
+          "Microsoft.Owin.Host.SystemWeb.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.40213.64"
+          }
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0.0": {
+        "runtime": {
+          "Microsoft.Web.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20105.407"
+          }
+        }
+      },
+      "System.Web.Razor/3.0.0.0": {
+        "runtime": {
+          "System.Web.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.30128.0"
+          }
+        }
+      },
+      "System.Web.WebPages.Razor/3.0.0.0": {
+        "runtime": {
+          "System.Web.WebPages.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.30128.0"
+          }
+        }
+      },
+      "System.Web.WebPages/3.0.0.0": {
+        "runtime": {
+          "System.Web.WebPages.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.30128.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0.0": {
+        "runtime": {
+          "Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Web.WebPages.Deployment/3.0.0.0": {
+        "runtime": {
+          "System.Web.WebPages.Deployment.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.30128.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MvcLogParserDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MvcMusicStore/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin/3.0.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Optimization/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Mvc/5.2.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Owin/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNet.Identity.Core/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNet.Identity.EntityFramework/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NLog/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/6.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PerformanceCounterHelper/1.3.0.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNet.Identity.Owin/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Security.Cookies/3.0.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Security/3.0.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac.Integration.Mvc/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Host.SystemWeb/3.0.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.Infrastructure/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Razor/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.WebPages.Razor/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.WebPages/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Bcl.AsyncInterfaces/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.WebPages.Deployment/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
