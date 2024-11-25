@@ -61,12 +61,12 @@ namespace Task.DB
 				.Property(e => e.Freight)
 				.HasPrecision(19, 4);
 
-			modelBuilder.Entity<Order>()
-				.HasMany(e => e.Order_Details)
-				.WithRequired(e => e.Order)
-				.WillCascadeOnDelete(false);
+            modelBuilder.Entity<Order>()
+                .HasMany(e => e.Order_Details)
+                .WithRequired(e => e.Order)
+                .WillCascadeOnDelete(false);
 
-			modelBuilder.Entity<Product>()
+            modelBuilder.Entity<Product>()
 				.Property(e => e.UnitPrice)
 				.HasPrecision(19, 4);
 
@@ -84,12 +84,12 @@ namespace Task.DB
 				.WithRequired(e => e.Region)
 				.WillCascadeOnDelete(false);
 
-			modelBuilder.Entity<Shipper>()
-				.HasMany(e => e.Orders)
-				.WithOptional(e => e.Shipper)
-				.HasForeignKey(e => e.ShipVia);
+            modelBuilder.Entity<Shipper>()
+                .HasMany(e => e.Orders)
+                .WithOptional(e => e.Shipper)
+                .HasForeignKey(e => e.ShipVia);
 
-			modelBuilder.Entity<Territory>()
+            modelBuilder.Entity<Territory>()
 				.Property(e => e.TerritoryDescription)
 				.IsFixedLength();
 		}

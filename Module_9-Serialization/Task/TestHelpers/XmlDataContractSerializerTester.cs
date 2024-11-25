@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Task.TestHelpers
 {
+	// A wrapper around XmlObjectSerializer.
 	public class XmlDataContractSerializerTester<T> : SerializationTester<T, XmlObjectSerializer>
 	{
 		public XmlDataContractSerializerTester(

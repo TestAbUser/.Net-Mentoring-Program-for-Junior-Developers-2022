@@ -8,7 +8,6 @@ namespace Task.DB
 
     public partial class Supplier
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Supplier()
         {
             Products = new HashSet<Product>();
@@ -50,7 +49,6 @@ namespace Task.DB
         [Column(TypeName = "ntext")]
         public string HomePage { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Product> Products { get; set; }
     }
 }
